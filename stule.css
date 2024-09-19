@@ -1,0 +1,105 @@
+/* Базові стилі для сторінки */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Заголовки */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Стиль для header */
+header {
+    background-color: #282c34;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Стиль для aside */
+aside {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+    float: left;
+    width: 20%;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+aside ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Стиль для основного контенту */
+main {
+    padding: 20px;
+    margin-left: 22%;
+}
+
+/* Стиль для зображення */
+img {
+    border: 2px solid #333;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Стиль для таблиці */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #ce3030;
+}
+
+tfoot td {
+    text-align: center;
+    font-weight: bold;
+    background-color: #b73131;
+}
+
+/* Стиль для футера */
+footer {
+    background-color: #282c34;
+    color: #d01414;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+    margin-top: 20px;
+}
